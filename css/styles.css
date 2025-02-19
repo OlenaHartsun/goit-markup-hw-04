@@ -101,6 +101,14 @@ img {
   color: #404bbf;
 }
 
+.navigation-menu-f::after {
+  content: "";
+  background-color: #404bbf;
+  width: 48px;
+  height: 4px;
+  display: block;
+}
+
 .navigation-address {
   font-weight: 400;
   font-size: 16px;
@@ -211,6 +219,21 @@ img {
   width: calc(100% - 72px);
 }
 
+.second-items-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
+
+.second-svg {
+  fill: #2e2f42;
+}
+
 .second-title {
   font-weight: 500;
   font-size: 20px;
@@ -261,6 +284,7 @@ img {
   justify-content: center;
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .third-sub-title {
@@ -332,6 +356,11 @@ img {
 
 .fourth-card {
   background: #fff;
+}
+
+.fourth-card :hover,
+.fourth-card :focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .fourth-sub-title {
