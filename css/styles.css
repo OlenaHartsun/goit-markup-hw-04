@@ -338,6 +338,10 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.third-item-svg:hover {
+  background-color: #404bbf;
+}
+
 .third-svg {
   fill: #f4f4fd;
 }
@@ -355,6 +359,10 @@ img {
 .third-item-a:hover,
 .third-item-a:focus,
 .third-item-a:active {
+  background-color: #404bbf;
+}
+
+.third-item-a:focus {
   background-color: #404bbf;
 }
 
@@ -506,6 +514,10 @@ img {
   width: 40px;
   height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-item-svg:hover {
+  background-color: #31d0aa;
 }
 
 .footer-item-a {
